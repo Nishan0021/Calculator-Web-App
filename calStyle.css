@@ -6,7 +6,6 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-
 body{
 	background-color: #000;
 }
@@ -22,23 +21,21 @@ body{
 	overflow-y: hidden;
 	overflow-x: hidden;
  }
-
  h1{
-	filter: drop-shadow(10px 10px 100px #e84393);
+	filter: drop-shadow(10px 10px 100px #e90fcc);
 	color:#e84393;
 	/* background-color:black; */
 	text-align: center;
-	padding:50px 40%;
+	padding:4px 30%;
 	display: inline-block;
-	font-size: 5rem;
+	font-size: 4rem;
 	font-family: 'Dancing Script', cursive; 
 }
- 
  .calculator
  {
  	position: relative;
  	display: grid;
-	 background-color:#2d3436;
+	 background-color:#2d3436; 
  }
  
  .calculator .inputBar
@@ -53,7 +50,6 @@ body{
  	font-size: 20px;
  	background: #fff;
  	color: #000;
-
  }
  .calculator span
  {
@@ -65,21 +61,17 @@ body{
  	border: 1px solid rgba(0,0,0,.1);
  }
  
- 
  .calculator span:active , span:hover
  {
  	background: #0fb9b1;
  	color: #111;
  }
- 
- 
   .calculator span.clear
  {
  	grid-column: span 2;
  	width: 120px;
  	font-size: 24px;
  	background-color: #e84393;
-
  }
  .calculator span.plus
  {
